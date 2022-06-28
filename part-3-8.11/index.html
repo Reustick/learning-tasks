@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block {
+          height: 150px;
+      
+          border: 1px solid #CCC;
+          background: #eee;
+        }
+      
+        .spacer {
+          margin-left: 20%;
+          margin-right: 20%;
+      
+          height: 80%;
+          margin: 0 auto;
+          margin-left: 50px;
+          margin-right: 50px;
+      
+          border: 1px solid black;
+          background: #FFF;
+        }
+      </style>
+</head>
+<body>
+    <!-- Нерабочие margin?
+    ошибка заключается в том что отступы аданы в процентах а надо в пикселях -->
+    <div class="block">
+        <div class="spacer"></div>
+    </div>
+
+    <!-- Расположить текст внутри INPUT
+        использовать псевдоэлемент
+    input::placeholder {
+        color: #768298;
+      }
+      либо через отрицательный margin
+      input {
+        margin: 0;
+        width: 12em;
+        }
+
+    #placeholder {
+        color: red;
+        margin: -1.3em 0 0 0.2em;
+    }
+    
+    -->
+
+
+</body>
+</html>
