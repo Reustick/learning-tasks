@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          border-collapse: collapse;
+        }
+    
+        td,
+        th {
+          border: 1px solid black;
+          padding: 3px;
+          text-align: center;
+        }
+    
+        th {
+          font-weight: bold;
+          background-color: #E6E6E6;
+        }
+        .hour {
+            color: red
+        }
+
+        .min {
+            color: green
+        }
+
+        .sec {
+            color: blue
+        }
+      </style>
+    </head>
+</head>
+<body>
+    <ul>
+        <li>Животные
+          <ul>
+            <li>Млекопитающие
+              <ul>
+                <li>Коровы</li>
+                <li>Ослы</li>
+                <li>Собаки</li>
+                <li>Тигры</li>
+              </ul>
+            </li>
+            <li>Другие
+              <ul>
+                <li>Змеи</li>
+                <li>Птицы</li>
+                <li>Ящерицы</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Рыбы
+          <ul>
+            <li>Аквариумные
+              <ul>
+                <li>Гуппи</li>
+                <li>Скалярии</li>
+              </ul>
+            </li>
+            <li>Морские
+              <ul>
+                <li>Морская форель</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div id="clock">
+        <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span>
+      </div>
+        <input type="button" onclick="clockStart()" value="Start">
+        <input type="button" onclick="clockStop()" value="Stop">
+    <script src="main.js"></script>
+</body>
+</html>
